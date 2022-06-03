@@ -348,7 +348,7 @@ constructor() {
 
 
 
-![cryptoIntro](F:\TextofCollege\加密货币\加密货币开发实验\饮料售卖系统\cryptoIntro.png)
+![cryptoIntro.png](https://github.com/GOODFLYO/ECR20_Drink/blob/main/img/cryptoIntro.png?raw=true)
 
 ---
 
@@ -362,7 +362,7 @@ constructor() {
 
 
 
-![bug](F:\TextofCollege\加密货币\加密货币开发实验\饮料售卖系统\bug.png)
+![bug.png](https://github.com/GOODFLYO/ECR20_Drink/blob/main/img/bug.png?raw=true)
 
 
 
