@@ -1,17 +1,24 @@
+# 我的博客
+
+---
+
+GITHUBIO:[GOODFLY'S BLOG](https://goodflyo.github.io/)
+
+SERVER:[GOODFLY'S BLOG](http://www.goodfly.vip/)
+
+---
+
 # ECR20_Drink
-基于ERC20的饮料售卖系统
+
+> 基于ERC20的饮料售卖系统
 
 # 加密货币应用开发实践
 
-## 基于ERC20标准的数字积分系统设计
+## 一、基于ERC20标准的数字积分系统设计
 
 > example:数字藏品积分系统，社交媒体积分系统
 
 > 以PPT和代码截图的形式进行提交
-
----
-
-### 基于ERC20标准的饮料售卖系统设计
 
 ---
 
@@ -42,6 +49,13 @@
 > 饮料由名字、价格和剩余量组成
 >
 > 别人可以购买 生产商可以上新（数量或饮料种类）
+
+---
+
+### 合约部署
+
+>**合约地址**:0x01f4E0c6D43f1bEAf545f70de32b28D7Ab7F80d2
+>**部署人**：0x3a284942f74F96a4efFcCEaf4C294A36F70E3712
 
 ---
 
@@ -352,6 +366,10 @@ constructor() {
 
 ---
 
+### 视频演示
+
+> bilibili:https://www.bilibili.com/video/BV1t94y1m7Mq?spm_id_from=333.999.0.0
+
 ### BUG
 
 > 本次合约在部署后有一个地方出错了
@@ -365,6 +383,22 @@ constructor() {
 ![bug.png](https://github.com/GOODFLYO/ECR20_Drink/blob/main/img/bug.png?raw=true)
 
 
+
+---
+
+## 二、测试教程
+
+---
+
+### 部署的合约
+
+> 测试网：https://ropsten.etherscan.io/address/0x01f4E0c6D43f1bEAf545f70de32b28D7Ab7F80d2
+
+---
+
+### 视频教程
+
+> bilibili:https://www.bilibili.com/video/BV1oU4y1y7Ek?spm_id_from=333.999.0.0
 
 
 
