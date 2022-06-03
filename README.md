@@ -388,6 +388,10 @@ constructor() {
 
 ## 二、测试教程
 
+### 教程截图
+
+![教程.png](https://github.com/GOODFLYO/ECR20_Drink/blob/main/img/%E6%95%99%E7%A8%8B.png?raw=true)
+
 ---
 
 ### 部署的合约
