@@ -1,3 +1,5 @@
+//合约地址:0x01f4E0c6D43f1bEAf545f70de32b28D7Ab7F80d2
+//部署人：0x3a284942f74F96a4efFcCEaf4C294A36F70E3712
 pragma solidity ^0.8.0;
 
 interface IERC20 {
@@ -115,13 +117,12 @@ constructor() {
     DrinkNP[yiBao]=10;
     DrinkNP[yingYangKuaiXian]=40;
 }
-
-    
+ 
     //买水功能
     function _buyDrink(string memory drinkname,uint num) public  returns (bool){
         require(DrinkNN[drinkname]>=num);
         require(balances[msg.sender]>=(num*DrinkNP[drinkname]));
-        transfer(OwnerDrink,num*DrinkNP[drinkname]);//这个的调用者是谁啊？比如A用这个函数买水 A会扣钱吗，然后钱会转给OwnerDrink
+        transfer(OwnerDrink,num*DrinkNP[drinkname]);//这个的调用者是msg.sender
         DrinkNN[drinkname]=DrinkNN[drinkname]-num;
         BuyerName[msg.sender]=drinkname;
         BuyerDrink[msg.sender][drinkname]=num;
@@ -129,10 +130,10 @@ constructor() {
         emit _drinkBuy(msg.sender,drinkname,num);
         return true;
     }
-
+    //生产商更新饮料
     function _updateDrink(string memory name,uint price,uint number) public  returns (bool){
         
-        // require(msg.sender==OwnerDrink);
+        require(msg.sender==OwnerDrink);
         DrinkNP[name]=price;
         DrinkNN[name]=number;
         return true;
